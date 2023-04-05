@@ -1,0 +1,55 @@
+.map {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 0 50px 0;
+
+  &__left {
+    :nth-child(6) {
+      :nth-child(2) {
+      }
+    }
+
+    .map__title {
+      font-size: 18px;
+      color: #000;
+    }
+    .map__head {
+      margin: 15px 0;
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .map__adress-block {
+      font-family: sans-serif;
+      width: 450px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      gap: 0 30px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      padding: 12px;
+      border-radius: 10px;
+
+      .svg {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgb(62, 62, 222);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      svg {
+        font-size: 25px;
+      }
+      h4 {
+        font-size: 20px;
+        color: rgb(85, 85, 209);
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

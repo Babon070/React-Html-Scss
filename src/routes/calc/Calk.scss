@@ -1,0 +1,59 @@
+.calk__wrap {
+  display: flex;
+  margin: 50px 0;
+
+  p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &--left {
+    width: 400px;
+  }
+  &--right {
+    width: 800px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    min-height: 600px;
+    border-radius: 10px;
+
+    h3 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 35px;
+    }
+
+    .calk_span {
+      color: rgb(20, 201, 20);
+    }
+    p {
+      margin: 20px 0;
+    }
+    button {
+      background-color: rgb(74, 74, 225);
+      color: #fff;
+      width: 170px;
+      height: 40px;
+      border-radius: 20px;
+    }
+
+    .block__calk {
+      margin-top: 50px;
+
+      h3 {
+        font-size: 28px;
+      }
+
+      ul {
+        list-style-type: circle;
+        padding: 1rem;
+        line-height: 25px;
+
+        li {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

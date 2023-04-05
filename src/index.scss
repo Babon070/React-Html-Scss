@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "reset";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@mixin h4 {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+}
+@mixin h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+@mixin p {
+  font-size: 18px;
+  width: 500px;
+  font-family: sans-serif;
+  line-height: 25px;
+  margin-bottom: 35px;
+}

@@ -1,0 +1,82 @@
+.main {
+  background-image: url("../../asset/atom.jpg");
+  background-size: cover;
+}
+
+.main__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+  height: 250px;
+  margin-bottom: 50px;
+
+  .card {
+    background-color: rgb(191, 165, 18);
+    border-radius: 10px;
+    position: relative;
+
+    div {
+      display: flex;
+      justify-content: space-evenly;
+      position: relative;
+      top: 20px;
+
+      .span {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        border-radius: 50%;
+        background-color: rgb(191, 165, 18);
+        border: 15px solid #fff;
+        opacity: 0.6;
+        left: 10px;
+      }
+      svg {
+        position: absolute;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+        color: #fff;
+      }
+    }
+    p {
+      position: absolute;
+      top: 180px;
+      left: 15px;
+      line-height: 20px;
+      text-align: center;
+      width: 250px;
+      color: #fff;
+    }
+  }
+}
+.busines__title {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+.delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+  }
+  p {
+    width: 1000px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+}
